@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="preview-input"><input disabled id="preview-input" type="text" pattern="[0-9]"></div>
+        <div class="preview-output">0</div>
+        <div class="symbols">
+            <div class="symbols-utils">
+                <button id ="19"class="symbol">(</button>
+                <button id ="20" class="symbol">)</button>
+                <button id ="21"class="symbol">AC</button>
+            </div>
+            <div class="symbols-nums">
+                <button id="0"class="symbol">1</button>
+                <button id="1" class="symbol">2</button>
+                <button id="2" class="symbol">3</button>
+                <button id="3" class="symbol">4</button>
+                <button id="4" class="symbol">5</button>
+                <button id="5" class="symbol">6</button>
+                <button id="6" class="symbol">7</button>
+                <button id="7" class="symbol">8</button>
+                <button id="8" class="symbol">9</button>
+                <button id="9" class="symbol">.</button>
+                <button id="10" class="symbol">0</button>
+                <button id="12" onclick="clear()" class="symbol ">⇦</button>
+            </div>
+            <div class="symbols-math ">
+                <button id="14"class="symbol">/</button>
+                <button id ="15"class="symbol">*</button>
+                <button id ="16" class="symbol">-</button>
+                <button id ="17" class="symbol">+</button>
+                <button id ="18" class="symbol">=</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+
+</body>
+</html>
